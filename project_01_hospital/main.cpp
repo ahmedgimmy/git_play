@@ -62,12 +62,12 @@ void print_all_patients()
                 if (statics[i][j])
                 {
                     cout << "urgent" << endl;
-                    
+
                 }
                 else cout << "regular" << endl;
             }
         }
-        
+
     }
 }
 void get_next_patient()
@@ -113,7 +113,8 @@ void hospital_system()
         }
         if (!(1 <= choice && choice <= 4))
         {
-            cout << " wrong input ,please try again\n";
+            cout << "\n this is wrong input ,please try again\n";
+            cout<<"please do the right input\n";
             continue;
     }}
 }
